@@ -1,4 +1,4 @@
-# MusixMatch-Lyrics
+# MusixMatch-Lyrics (UPDATED)
 Easily get music Synced Lyrics by using MusixMatch API written in PHP!
 
 ### Examples
@@ -14,7 +14,7 @@ To retrieve lyrics using the alternative method, use the `/getLyricsMusix.php` e
 Example:
 
 ```
-https://paxsenixofc.my.id/server/getLyricsMusix.php?t=Hope&a=XXXTENTACION&d=1:50&type=alternative
+https://yourserver.com/getLyricsMusix.php?t=Hope&a=XXXTENTACION&d=1:50&type=alternative
 ```
 
 #### Using Default Method
@@ -26,7 +26,7 @@ To retrieve lyrics using the default method, use the `/getLyricsMusix.php` endpo
 Example:
 
 ```
-https://paxsenixofc.my.id/server/getLyricsMusix.php?q=Hope%20XXXTentacion&type=default
+https://yourserver.com/getLyricsMusix.php?q=Hope%20XXXTentacion&type=default
 ```
 
 ---
@@ -61,7 +61,7 @@ echo $musix->getLyrics($track_id);
 
 ### Information
 
-I'm sorry if the code looks weird; I'm working only on a phone (I don't have a PC/Laptop) and I'm still a beginner. :)
+Choose getLyricsWithMEMCACHED.php or getLyricsWithoutMEMCACHED.php put it on your php server and use!
 
 ### Idea
 
