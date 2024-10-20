@@ -42,23 +42,4 @@ https://yourserver.com/getLyricsMusix.php?q=Hope%20XXXTentacion&type=default
 
 ### How to Use
 
-#### Lyrics Synced Alternative
-
-```php
-include_once("./Musixmatch.php");
-$musix = new MusixLyricsApi\Musix(); 
-echo $musix->getLyricsAlternative("Hope", "XXXTENTACION");
-```
-
-#### Lyrics Synced Default
-
-```php
-include_once("./Musixmatch.php");
-$musix = new MusixLyricsApi\Musix();
-$track_id = $musix->searchTrack("Hope XXXTENTACION");      
-echo $musix->getLyrics($track_id);
-```
-
-### Information
-
 Choose getLyricsWithMEMCACHED.php or getLyricsWithoutMEMCACHED.php put it on your php server and use!
