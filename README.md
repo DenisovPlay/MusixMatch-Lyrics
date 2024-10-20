@@ -62,4 +62,3 @@ echo $musix->getLyrics($track_id);
 ### Information
 
 Choose getLyricsWithMEMCACHED.php or getLyricsWithoutMEMCACHED.php put it on your php server and use!
----
