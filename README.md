@@ -62,9 +62,4 @@ echo $musix->getLyrics($track_id);
 ### Information
 
 Choose getLyricsWithMEMCACHED.php or getLyricsWithoutMEMCACHED.php put it on your php server and use!
-
-### Idea
-
-I started searching for lyrics APIs because of this repository: [Spotify Lyrics API by akashrchandran](https://github.com/akashrchandran/spotify-lyrics-api)
-
 ---
